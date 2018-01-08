@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="bgorange">#FFD754</color>
+    <color name="bgyellow">#FFF3B6</color>
+    <color name="bgblue">#BCDAF9</color>
+    <color name="pricetext">#FF555A</color>
+    <color name="sendtext">#DF9F00</color>
+    <color name="sendbg">#FFD754</color>
+</resources>

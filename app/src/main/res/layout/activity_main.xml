@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.wangpeng.animation.turntable.turntable.MainActivity">
+
+    <RelativeLayout
+        android:layout_width="312dp"
+        android:layout_height="312dp"
+        android:layout_centerInParent="true"
+        android:background="@drawable/shipinliaotian_zhuanpan1">
+
+        <com.wangpeng.animation.turntable.turntable.TurnTable
+            android:id="@+id/turntable"
+            android:layout_width="250dp"
+            android:layout_height="250dp"
+            android:layout_centerInParent="true"
+            android:background="@android:color/transparent">
+
+        </com.wangpeng.animation.turntable.turntable.TurnTable>
+
+        <FrameLayout
+            android:layout_width="@dimen/px_to_dip_220"
+            android:layout_height="@dimen/px_to_dip_220"
+            android:layout_centerInParent="true">
+
+            <ImageView
+                android:id="@+id/start_img"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:src="@drawable/shipinliaotian_anniu" />
+
+            <TextView
+                android:id="@+id/state_desc"
+                android:layout_width="@dimen/px_to_dip_88"
+                android:layout_height="@dimen/px_to_dip_42"
+                android:layout_gravity="center"
+                android:background="@drawable/shipinliaotian_faqi"
+                android:gravity="center"
+                android:textColor="@android:color/white" />
+        </FrameLayout>
+    </RelativeLayout>
+</RelativeLayout>
